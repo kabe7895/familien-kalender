@@ -108,7 +108,7 @@ git push
 
 ```
 
-!\[Git Push](screenshots/3\_git push.png)
+!\[Git Push](screenshots/03\_git-push.png)
 
 
 
@@ -126,7 +126,7 @@ git push
 
 ```
 
-!\[Git mv](screenshots/4\_git mv.png)
+!\[Git mv](screenshots/04\_git-mv.png)
 
 
 
@@ -162,7 +162,7 @@ git push
 
 ```
 
-!\[Git rm](screenshots/5\_git rm.png)
+!\[Git rm](screenshots/05\_git-rm.png
 
 
 
@@ -184,7 +184,7 @@ git status
 
 ```
 
-!\[Git Status](screenshots/1\_git status.png)
+!\[Git Status](screenshots/01\_git-status.png)
 
 
 
@@ -226,7 +226,7 @@ git log --oneline
 
 ```
 
-!\[Beginn der Zeitreise](screenshots/6\_Beginn der Zeitreise.png)
+!\[Zeitreise](screenshots/06\_zeitreise-start.png)
 
 
 
@@ -258,7 +258,7 @@ git checkout fdf0b6c
 
 ```
 
-!\[Git Checkout](screenshots/6\_git checkout fdf0b6c.png)
+!\[Checkout Old](screenshots/07\_checkout-oldcommit.png)
 
 
 
@@ -272,9 +272,7 @@ git checkout main
 
 ```
 
-!\[Git Checkout Main](screenshots/7.\_git checkout main.png)
-
-
+!\[Checkout Main](screenshots/08\_checkout-main.png)
 
 \---
 
@@ -318,7 +316,7 @@ echo "Feature A" > branch.txt
 
 ```
 
-!\[Feature A Branch](screenshots/8\_git new branch für feature a.png)
+!\[Feature A](screenshots/09\_feature-a-branch.png))
 
 
 
@@ -340,9 +338,7 @@ git push --set-upstream origin feature-a
 
 
 
-!\[GitHub Branches](screenshots/9\_github branches.png)
-
-
+!\[Branches](screenshots/10\_branches.png)
 
 \---
 
@@ -386,9 +382,7 @@ git push --set-upstream origin feature-b
 
 ```
 
-!\[Feature B Branch](screenshots/10\_git branch 'b'.png)
-
-
+!\[Feature B](screenshots/11\_feature-b-branch.png)
 
 \---
 
@@ -408,7 +402,7 @@ git merge feature-a
 
 ```
 
-!\[Merge Feature A](screenshots/11\_git branche a into main.png)
+!\[Merge A](screenshots/12\_merge-feature-a.png)
 
 
 
@@ -450,9 +444,7 @@ git push
 
 ```
 
-!\[Push nach Merge](screenshots/12\_git push after merge and clear.png)
-
-
+!\[Merge Push](screenshots/13\_merge-push.png)
 
 \---
 
