@@ -162,7 +162,7 @@ git push
 
 ```
 
-!\[Git rm](screenshots/05\_git-rm.png
+!\[Git rm](screenshots/05\_git-rm.png)
 
 
 
@@ -200,9 +200,7 @@ git diff --staged
 
 ```
 
-!\[Git Diff --staged](screenshots/2\_git diff --staged.png)
-
-
+!\[Git Diff](screenshots/02\_git-diff-staged.png)
 
 Dabei wurden Änderungen vor dem Commit überprüft.
 
@@ -316,7 +314,7 @@ echo "Feature A" > branch.txt
 
 ```
 
-!\[Feature A](screenshots/09\_feature-a-branch.png))
+!\[Feature A](screenshots/09\_feature-a-branch.png)
 
 
 
