@@ -108,6 +108,8 @@ git push
 
 ```
 
+!\[Git Push](screenshots/3\_git push.png)
+
 
 
 \### Datei umbenannt
@@ -123,6 +125,8 @@ git commit -m "Dateiname geändert mit git mv"
 git push
 
 ```
+
+!\[Git mv](screenshots/4\_git mv.png)
 
 
 
@@ -158,6 +162,8 @@ git push
 
 ```
 
+!\[Git rm](screenshots/5\_git rm.png)
+
 
 
 \---
@@ -178,6 +184,8 @@ git status
 
 ```
 
+!\[Git Status](screenshots/1\_git status.png)
+
 
 
 \### Änderungen anzeigen
@@ -191,6 +199,8 @@ git diff
 git diff --staged
 
 ```
+
+!\[Git Diff --staged](screenshots/2\_git diff --staged.png)
 
 
 
@@ -215,6 +225,8 @@ Die Commit-Historie wurde mit folgendem Befehl angezeigt:
 git log --oneline
 
 ```
+
+!\[Beginn der Zeitreise](screenshots/6\_Beginn der Zeitreise.png)
 
 
 
@@ -246,6 +258,8 @@ git checkout fdf0b6c
 
 ```
 
+!\[Git Checkout](screenshots/6\_git checkout fdf0b6c.png)
+
 
 
 Danach erfolgte die Rückkehr zum aktuellen Stand:
@@ -257,6 +271,8 @@ Danach erfolgte die Rückkehr zum aktuellen Stand:
 git checkout main
 
 ```
+
+!\[Git Checkout Main](screenshots/7.\_git checkout main.png)
 
 
 
@@ -290,6 +306,8 @@ git checkout -b feature-a
 
 
 
+
+
 Datei erstellt:
 
 
@@ -299,6 +317,10 @@ Datei erstellt:
 echo "Feature A" > branch.txt
 
 ```
+
+!\[Feature A Branch](screenshots/8\_git new branch für feature a.png)
+
+
 
 
 
@@ -315,6 +337,10 @@ git commit -m "Feature A in neuem Branch erstellt"
 git push --set-upstream origin feature-a
 
 ```
+
+
+
+!\[GitHub Branches](screenshots/9\_github branches.png)
 
 
 
@@ -360,6 +386,8 @@ git push --set-upstream origin feature-b
 
 ```
 
+!\[Feature B Branch](screenshots/10\_git branch 'b'.png)
+
 
 
 \---
@@ -379,6 +407,8 @@ Zunächst wurde `feature-a` erfolgreich gemerged:
 git merge feature-a
 
 ```
+
+!\[Merge Feature A](screenshots/11\_git branche a into main.png)
 
 
 
@@ -419,6 +449,8 @@ git commit -m "Merge feature-a into main"
 git push
 
 ```
+
+!\[Push nach Merge](screenshots/12\_git push after merge and clear.png)
 
 
 
