@@ -1,8 +1,8 @@
-\# Einsendeaufgabe DVC-E1 – Versionsverwaltung mit Git - KarstenBernhardt
+# Einsendeaufgabe DVC-E1 – Versionsverwaltung mit Git - KarstenBernhardt
 
 
 
-\## 1. Repository
+## 1. Repository
 
 
 
@@ -18,11 +18,11 @@ Dieses Repository ist öffentlich (public).
 
 
 
-\---
+---
 
 
 
-\## 2. Projekt
+## 2. Projekt
 
 
 
@@ -42,11 +42,10 @@ git clone https://github.com/kabe7895/familien-kalender.git
 
 
 
-\---
+---
 
 
-
-\## 3. Verwendete Git-Befehle
+## 3. Verwendete Git-Befehle
 
 
 
@@ -54,45 +53,45 @@ Folgende Git-Kommandos habe ich im Projekt angewendet:
 
 
 
-\- git clone
+- git clone
 
-\- git status
+- git status
 
-\- git add
+- git add
 
-\- git diff
+- git diff
 
-\- git diff --staged
+- git diff --staged
 
-\- git commit
+- git commit
 
-\- git push
+- git push
 
-\- git pull
+- git pull
 
-\- git mv
+- git mv
 
-\- git rm
+- git rm
 
-\- git log --oneline
+- git log --oneline
 
-\- git checkout
+- git checkout
 
-\- git checkout -b
+- git checkout -b
 
-\- git merge
-
-
-
-\---
+- git merge
 
 
 
-\## 4. Arbeiten mit Dateien
+---
 
 
 
-\### Datei erstellt
+## 4. Arbeiten mit Dateien
+
+
+
+### Datei erstellt
 
 
 
@@ -108,11 +107,11 @@ git push
 
 ```
 
-!\[Git Push](screenshots/03\_git-push.png)
+![Git Push](screenshots/03\_git-push.png)
 
 
 
-\### Datei umbenannt
+### Datei umbenannt
 
 
 
@@ -126,11 +125,11 @@ git push
 
 ```
 
-!\[Git mv](screenshots/04\_git-mv.png)
+![Git mv](screenshots/04\_git-mv.png)
 
 
 
-\### Zweite Datei erstellt
+### Zweite Datei erstellt
 
 
 
@@ -148,7 +147,7 @@ git push
 
 
 
-\### Datei gelöscht
+### Datei gelöscht
 
 
 
@@ -162,19 +161,18 @@ git push
 
 ```
 
-!\[Git rm](screenshots/05\_git-rm.png)
+![Git rm](screenshots/05\_git-rm.png)
 
 
 
-\---
+---
 
 
 
-\## 5. Arbeiten mit Status und Diff
+## 5. Arbeiten mit Status und Diff
 
 
-
-\### Status prüfen
+### Status prüfen
 
 
 
@@ -184,11 +182,11 @@ git status
 
 ```
 
-!\[Git Status](screenshots/01\_git-status.png)
+![Git Status](screenshots/01\_git-status.png)
 
 
 
-\### Änderungen anzeigen
+### Änderungen anzeigen
 
 
 
@@ -200,17 +198,17 @@ git diff --staged
 
 ```
 
-!\[Git Diff](screenshots/02\_git-diff-staged.png)
+![Git Diff](screenshots/02\_git-diff-staged.png)
 
 Dabei wurden Änderungen vor dem Commit überprüft.
 
 
 
-\---
+---
 
 
 
-\## 6. Zeitreisen mit Git
+## 6. Zeitreisen mit Git
 
 
 
@@ -224,7 +222,7 @@ git log --oneline
 
 ```
 
-!\[Zeitreise](screenshots/06\_zeitreise-start.png)
+![Zeitreise](screenshots/06\_zeitreise-start.png)
 
 
 
@@ -256,7 +254,7 @@ git checkout fdf0b6c
 
 ```
 
-!\[Checkout Old](screenshots/07\_checkout-oldcommit.png)
+![Checkout Old](screenshots/07\_checkout-oldcommit.png)
 
 
 
@@ -270,13 +268,13 @@ git checkout main
 
 ```
 
-!\[Checkout Main](screenshots/08\_checkout-main.png)
+![Checkout Main](screenshots/08\_checkout-main.png)
 
-\---
+---
 
 
 
-\## 7. Branches
+## 7. Branches
 
 
 
@@ -284,13 +282,13 @@ Es wurden zwei ähnliche Branches erstellt:
 
 
 
-\- feature-a
+- feature-a
 
-\- feature-b
+- feature-b
 
 
 
-\### Branch feature-a
+### Branch feature-a
 
 
 
@@ -314,7 +312,7 @@ echo "Feature A" > branch.txt
 
 ```
 
-!\[Feature A](screenshots/09\_feature-a-branch.png)
+![Feature A](screenshots/09\_feature-a-branch.png)
 
 
 
@@ -336,13 +334,13 @@ git push --set-upstream origin feature-a
 
 
 
-!\[Branches](screenshots/10\_branches.png)
+![Branches](screenshots/10\_branches.png)
 
-\---
+---
 
 
 
-\### Branch feature-b
+### Branch feature-b
 
 
 
@@ -380,13 +378,13 @@ git push --set-upstream origin feature-b
 
 ```
 
-!\[Feature B](screenshots/11\_feature-b-branch.png)
+![Feature B](screenshots/11\_feature-b-branch.png)
 
-\---
+---
 
 
 
-\## 8. Merge und Konfliktlösung
+## 8. Merge und Konfliktlösung
 
 
 
@@ -400,7 +398,7 @@ git merge feature-a
 
 ```
 
-!\[Merge A](screenshots/12\_merge-feature-a.png)
+![Merge A](screenshots/12\_merge-feature-a.png)
 
 
 
@@ -442,13 +440,13 @@ git push
 
 ```
 
-!\[Merge Push](screenshots/13\_merge-push.png)
+![Merge Push](screenshots/13\_merge-push.png)
 
-\---
+---
 
 
 
-\## 9. Pull Request auf GitHub
+## 9. Pull Request auf GitHub
 
 
 
@@ -466,7 +464,7 @@ Der Pull Request wurde direkt über die GitHub-Weboberfläche erstellt (nicht ü
 
 Beitrag:
 
-\- kleine humorvolle Ergänzung / IT-Witze
+- kleine humorvolle Ergänzung / IT-Witze
 
 
 
@@ -482,7 +480,7 @@ Pull Request: 3 IT-ler Witze ergänzt #598
 
 
 
-\## 10. Fazit
+## 10. Fazit
 
 
 
@@ -490,17 +488,17 @@ Im Rahmen der Aufgabe wurden die grundlegenden Funktionen von Git praktisch ange
 
 
 
-\- Arbeiten mit lokalen und Remote-Repositories
+- Arbeiten mit lokalen und Remote-Repositories
 
-\- Versionierung
+- Versionierung
 
-\- Branching
+- Branching
 
-\- Merging
+- Merging
 
-\- Konfliktlösung
+- Konfliktlösung
 
-\- Navigation durch ältere Projektstände
+- Navigation durch ältere Projektstände
 
-\- Arbeiten mit GitHub und Pull Requests
+- Arbeiten mit GitHub und Pull Requests
 
