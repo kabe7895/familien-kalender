@@ -160,7 +160,7 @@ Begründung:
 - mögliche falsche Planungsvorschläge
 - fehlerhafte Zeitprognosen
 - Überoptimierung von Terminen
-
+- Verhaltensmusteranalyse die missbraucht werden kann 
 ---
 
 #### 6.2.1.2 Anforderungen aus EU AI Act Perspektive
