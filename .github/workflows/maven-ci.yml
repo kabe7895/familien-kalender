@@ -2,30 +2,11 @@ name: Maven CI
 
 on:
   push:
+    branches:
+      - main
   pull_request:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Set up JDK 17
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: 17
-
-      - name: Build with Maven
-        rname: Maven CI
-
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   build:
@@ -35,11 +16,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up JDK
+      - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: 17
+          cache: maven
 
-      - name: Build with Maven
-        run: mvn clean testun: mvn clean test
+      - name: Build and Test with Maven
+        run: mvn clean test
